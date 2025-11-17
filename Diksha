@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="mr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Diksha's Fashion World — खर्डा येथील दर्जेदार कपड्यांचे दुकान</title>
+  <meta name="description" content="Diksha's Fashion World — खर्डा, ता. जामखेड, जि. अहमदनगर येथील गुणवत्तापूर्ण महिला कपडे, साड्या, कुर्ते आणि नवीनतम फॅशन कलेक्शन." />
+  <link rel="canonical" href="https://yourdomain.com/" />
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:title" content="Diksha's Fashion World — महिला फॅशन कलेक्शन" />
+  <meta property="og:description" content="खर्डा येथील सर्वात विश्वसनीय फॅशन स्टोर — नवीनतम डिझाईन्स आणि उत्तम किंमती!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com/" />
+  <meta property="og:image" content="https://yourdomain.com/og-image.jpg" />
+
+  <!-- STRUCTURED DATA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Diksha's Fashion World",
+    "image": "https://yourdomain.com/og-image.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "At/Post Kharda, Tal. Jamkhed",
+      "addressLocality": "Kharda",
+      "addressRegion": "Ahmednagar",
+      "postalCode": "413204",
+      "addressCountry": "IN"
+    },
+    "telephone": "+91-7559240289",
+    "url": "https://yourdomain.com",
+    "priceRange": "₹₹"
+  }
+  </script>
+
+  <style>
+    :root{--accent:#b91c1c;--bg:#fff;--muted:#666}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Noto Sans",sans-serif;margin:0;background:var(--bg);color:#111;line-height:1.5}
+    header{background:linear-gradient(90deg,rgba(185,28,28,0.05),transparent);padding:28px 16px;border-bottom:1px solid #eee}
+    .container{max-width:980px;margin:0 auto;padding:0 16px}
+    h1{margin:0;font-size:1.6rem}
+    .hero{display:flex;flex-wrap:wrap;gap:16px;align-items:center;padding:20px 0}
+    .hero .left{flex:1 1 320px}
+    .hero .right{flex:0 1 320px}
+    .card{background:#fff;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.04);padding:18px}
+    .products{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-top:14px}
+    .prod{border-radius:8px;padding:12px;background:#fafafa}
+    img{max-width:100%;border-radius:8px;display:block}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none}
+    footer{padding:20px 0;color:var(--muted);font-size:0.95rem}
+    form input,form textarea{width:100%;padding:10px;margin-top:8px;border:1px solid #ddd;border-radius:8px}
+    @media(min-width:900px){h1{font-size:2rem}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Diksha's Fashion World</h1>
+      <div style="color:var(--muted);margin-top:6px">At/Post Kharda, Tal. Jamkhed, Dist. Ahmednagar</div>
+    </div>
+  </header>
+
+  <main class="container" style="padding:20px 0">
+    <section class="hero">
+      <div class="left card">
+        <h2>स्वागत आहे!</h2>
+        <p>Diksha's Fashion World — खर्डा येथील सर्वात विश्वासार्ह महिला फॅशन स्टोअर. साड्या, कुर्ते, ड्रेस मटेरियल आणि बरेच काही.</p>
+        <p><strong>उघडण्याचे तास:</strong> रोज 10:00 ते 8:00</p>
+        <p><strong>फोन:</strong> 7559240289</p>
+        <p><a class="btn" href="#contact">आता संपर्क करा</a></p>
+      </div>
+
+      <div class="right card">
+        <img alt="Store front" src="https://via.placeholder.com/600x400?text=Diksha's+Fashion+World" />
+      </div>
+    </section>
+
+    <section style="margin-top:18px">
+      <h3>उत्पादने</h3>
+      <div class="products">
+        <div class="prod card">
+          <img alt="Saree" src="https://via.placeholder.com/400x300?text=Saree" />
+          <div style="margin-top:8px"><strong>साडी - पारंपरिक</strong></div>
+          <div style="color:var(--muted);margin-top:6px">₹999</div>
+        </div>
+        <div class="prod card">
+          <img alt="Kurti" src="https://via.placeholder.com/400x300?text=Kurti" />
+          <div style="margin-top:8px"><strong>कुर्ती - ट्रेंडी</strong></div>
+          <div style="color:var(--muted);margin-top:6px">₹699</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:22px">
+      <h3>संपर्क करा</h3>
+      <div class="card" style="max-width:640px">
+        <form action="https://formspree.io/f/yourformid" method="POST">
+          <label>तुमचं नाव</label>
+          <input type="text" name="name" required placeholder="तुमचं नाव" />
+
+          <label>फोन</label>
+          <input type="tel" name="phone" placeholder="+91 7559240289" />
+
+          <label>संदेश</label>
+          <textarea name="message" rows="4" placeholder="तुमचा संदेश..." required></textarea>
+
+          <button class="btn" type="submit" style="border:none;margin-top:8px">पाठवा</button>
+        </form>
+        <p style="color:var(--muted);margin-top:10px;font-size:0.9rem">किंवा थेट कॉल करा: 7559240289</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+      <div>© <span id="yr"></span> Diksha's Fashion World</div>
+      <div style="color:var(--muted)">At/Post Kharda, Tal. Jamkhed, Dist. Ahmednagar</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('yr').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
